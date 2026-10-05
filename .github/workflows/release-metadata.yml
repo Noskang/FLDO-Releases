@@ -1,0 +1,17 @@
+name: Release metadata
+on:
+  push:
+    branches: ["M1/main"]
+  pull_request:
+    branches: ["M1/main"]
+permissions:
+  contents: read
+jobs:
+  release-metadata:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - run: python3 tools/check_release.py

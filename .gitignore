@@ -1,0 +1,8 @@
+*.zip
+*.exe
+*.dll
+*.pdb
+*.log
+__pycache__/
+.env
+.env.*

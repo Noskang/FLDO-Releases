@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "milestone": "M1",
+  "buildId": "20261001-014527",
+  "productVersion": "0.16.0-ia016",
+  "platform": "Windows x64",
+  "configuration": "Development",
+  "artifact": "FLDO-M1-20261001-014527-Windows.zip",
+  "sha256": "a0f2d58672247d030e1b82d10cb42d75e999f47c19d29b2f10432accdb9d6ac1",
+  "bytes": 89662797,
+  "releaseTag": "m1-20261001-014527",
+  "gameRebuilt": false,
+  "packaging": "Original runtime files unchanged; debugging/provenance files excluded.",
+  "verificationLimits": [
+    "F01 SFX listening unverified",
+    "F02 deferred",
+    "F03 final position/size impression pending",
+    "Final exit/reopen pending"
+  ]
+}
